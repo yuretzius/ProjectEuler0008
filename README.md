@@ -3,6 +3,8 @@ My work on
 
 problem #8 of projecteuler.net:
 
+Largest Product in a Series
+
 The four adjacent digits in the $1000$-digit number that have the greatest product are $9 \times 9 \times 8 \times 9 = 5832$.
 
 73167176531330624919225119674426574742355349194934
@@ -36,5 +38,12 @@ that's why I am sharing my work here for reference and educational purposes.
 #######################################################################################
 
 A true piece of history, my very first solved Project Euler problem.
+
+Python solution is very straightforward and needs no explanation.
+
+Same with C++, where the only quirk is that elements of a C++ string
+are ASCII-encoded characters, and char type is just 8-bit interer.
+Since '0' is encoded as 48, '1' as '49' etc., converting from a character
+to a number requires simply to subract 48.
 
 
