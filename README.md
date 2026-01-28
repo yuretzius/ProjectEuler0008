@@ -40,10 +40,14 @@ that's why I am sharing my work here for reference and educational purposes.
 A true piece of history, my very first solved Project Euler problem.
 
 Python solution is very straightforward and needs no explanation.
+We just scan the data with a moving window of the necessary size,
+convert digits to numbers, multiply them, and keep the largest product.
 
 Same with C++, where the only quirk is that elements of a C++ string
 are ASCII-encoded characters, and char type is just 8-bit interer.
 Since '0' is encoded as 48, '1' as '49' etc., converting from a character
 to a number requires simply to subract 48.
+
+Execution time is negligible in both cases.
 
 
