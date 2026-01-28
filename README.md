@@ -5,6 +5,8 @@ problem #8 of projecteuler.net:
 
 The four adjacent digits in the $1000$-digit number that have the greatest product are $9 \times 9 \times 8 \times 9 = 5832$.
 
+Find the thirteen adjacent digits in the $1000$-digit number that have the greatest product. What is the value of this product?
+
 Completed on Fri, 19 Feb 2021, 05:16
 
 #######################################################################################
